@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.enset.productmanagerfx.controllers.ProductController"
+      spacing="10" padding="15">
+    <Label text="Nom du produit:"/>
+    <TextField fx:id="nameField"/>
+
+    <Label text="Prix du produit:"/>
+    <TextField fx:id="priceField"/>
+
+    <Button fx:id="addButton" text="Ajouter Produit"/>
+
+    <ListView fx:id="productListView"/>
+</VBox>

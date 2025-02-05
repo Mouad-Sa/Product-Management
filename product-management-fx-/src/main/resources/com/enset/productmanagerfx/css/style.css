@@ -1,0 +1,30 @@
+VBox {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 15px;
+}
+
+Label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+TextField {
+    -fx-pref-width: 300px;
+    -fx-padding: 5px;
+}
+
+Button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+Button:hover {
+    -fx-background-color: #45a049;
+}
+
+ListView {
+    -fx-pref-height: 200px;
+}
